@@ -1,0 +1,32 @@
+.container {
+	width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.atm_Img-cover {
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+    display: block;
+    background: #eee;
+}
+
+.atm_Img-cover .Img-conver__img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	float: left;
+	margin: 0 0.5rem;
+}
+
+img:type-of-child(1) {
+	color:red;
+}
